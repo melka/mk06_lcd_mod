@@ -5,7 +5,7 @@
 
 ### Introduction
 
-The [Weytec MK06](https://deskthority.net/wiki/Weytec_Mk06) is a keyboard designed and sold by Wey Technologies and manufactured by GMK. It's a trading keyboard that was introduced in and that has been declared as EOL (12/31/2020) by WEY Technologies.
+The [Weytec MK06](https://deskthority.net/wiki/Weytec_Mk06) is a keyboard designed and sold by Wey Technologies and manufactured by GMK. It's a trading keyboard that has been declared as EOL (12/31/2020) by WEY Technologies.
 
 Those keyboards have a proprietary protocol and connector and needed a controller box to plug them into a computer. The list price was around 2600$... Very specialized.
 
@@ -42,15 +42,19 @@ All in all, it came out at around 200€ including the keyboard. Your price will
 In the *3D printed parts* folder, you'll find the Fusion 360 projects and the exported STLs that I use to hold everything together. Parts were printed on an Ender 3 with PLA @ 0.2mm / 80% infill.
 
 ![PCB Bracket](./pics/pcb_bracket.png)
+
 The PCB holding the original screen is held on plastic brackets. I redesigned them to leave more room for the various cables. You need to print at least 2 of them, I don't find the middle one very useful and it complexifies assembly.
 
 ![LCD Sled](./pics/lcd_sled.png)
+
 The LCD sled is used to attach your new LCD to the PCB and compensating for the space between the panel and the top case.
 
 ![LCD controller holder](./pics/lcd_controller_holder.png)
+
 The LCD controller holder goes under the angled PCB. It's used to attach the board that came with your display. You'll need 3 or 4 M2.5 screws.
 
 ![Electronics holder](./pics/electronics_holder.png)
+
 This part is designed around my build, you most certainly need to redesign it according to your choice of internal electronics. The top recess is for the USB hub naked PCB, middle is for the promicro, and bottom recess is for the RS232 module. The electronics are just friction fit in the recesses.
 
 You also need to print 5 washers to compensate for the screw length. You need them on the holes that are not covered by holders. If you don't use the washers, you risk having the screw poking at your LCD panel.
